@@ -17,12 +17,12 @@ cd Flower_Recognizer
 
 ### 3. Сборка Docker-контейнера
 ```bash
-docker build -t plant-search-app .
+docker build -t flower_recognizer_v1 .
 ```
 
 ### 4. Запуск
 ```bash
-docker run -p 8000:8000 plant-search-app
+docker run -p 8000:8000 flower_recognizer_v1
 ```
 
 ---
